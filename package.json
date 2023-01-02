@@ -11,8 +11,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "test2": "node index.js"
+    "start": "npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs,
+    "test2": "npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
   },
   "keywords": [
     "termux-whatsapp-bot",
