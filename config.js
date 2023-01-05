@@ -115,16 +115,16 @@ global.ultahowner = '17 June 2008'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/62d4704e53151622e0d6e.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/62d4704e53151622e0d6e.jpg'
+global.thumb = 'https://telegra.ph/file/1db27ac646f883dba53b4.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/1db27ac646f883dba53b4.jpg'
 global.giflogo = 'https://ibb.co/3sJ0ybv'
-global.giflogo2 = 'https://telegra.ph/file/a5eb5169ab1330a537e0b.jpg'
-global.thumbs = ['https://telegra.ph/file/62d4704e53151622e0d6e.jpg']
+global.giflogo2 = 'https://telegra.ph/file/986f19c5272c2cd41b20f.jpg'
+global.thumbs = ['https://telegra.ph/file/1db27ac646f883dba53b4.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.thumbBanned = 'https://telegra.ph/file/a5eb5169ab1330a537e0b.jpg'
-global.thumbWarn = 'https://telegra.ph/file/a5eb5169ab1330a537e0b.jpg'
+global.thumbBanned = 'https://telegra.ph/file/4b22389ca76f6415a9aee.jpg'
+global.thumbWarn = 'https://telegra.ph/file/4b22389ca76f6415a9aee.jpg'
 global.botintro = 'Hallo, Kenalin saya BebanBot愛 Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh Khairil春 Saya di rilis pada tanggal\n🗓 ️_16/10/2022_'
-global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
+global.intro = 'https://telegra.ph/file/bcb1c2ace3785b5f84342.jpg'
 /*============== GLOBAL BIO ==============*/
 global.nameowner = 'Khairil'
 global.umurowner = '14'
