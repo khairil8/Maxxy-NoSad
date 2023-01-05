@@ -13,13 +13,13 @@ let totalf = Object.values(global.plugins).filter(
   ).length;
  await conn.sendButton(m.chat, `Total Fitur Bot Saat ini: ${totalf}\n`,wm + '\n\n' + botdate, giflogo, [['MENU','.menu']], m, {
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtube.com/@khairil8837',
+                        sourceUrl: 'https://chat.whatsapp.com/Bn7PxZ06B3GL8BDEZhC36T',
                         mediaType: 2,
                         description: `⚘ ᴄʀᴇᴀᴛᴇ Khairil春`,
                         title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
                         body: `⚘ ᴄʀᴇᴀᴛᴇ by Khairil春`,          previewType: 0,
                         thumbnail: await (await fetch(giflogo2)).buffer(),
-                        mediaUrl: 'https://youtube.com/@khairil8837'
+                        mediaUrl: 'https://chat.whatsapp.com/Bn7PxZ06B3GL8BDEZhC36T'
                         
                       }}
 })
