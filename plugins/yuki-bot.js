@@ -4,16 +4,16 @@ import fs from 'fs'
 let handler = async (m, { conn, command, text }) => {
   let name = await conn.getName(m.sender)
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-  let pp = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
+  let pp = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/5ed101baedcca6c885961.png")
 await conn.sendButton(m.chat, `Halo juga kak ${name} Ada Yang ${await conn.getName(conn.user.jid)} Bisa Bantu?\n`,wm + '\n\n' + botdate, giflogo2, [['MENU','.menu']], m, {
 contextInfo: { externalAdReply :{
-                        mediaUrl: 'https://tiktok.com/@raraharsita2',
+                        mediaUrl: 'https://chat.whatsapp.com/Bn7PxZ06B3GL8BDEZhC36T',
                         mediaType: 2,
                         description: 'anu',
                         title: global.titlebot,
-                        body: '⚘ ᴄʀᴇᴀᴛᴇ ʙʏ ᴹᴿ᭄ King Of Bear ×፝֟͜×',          previewType: 0,
+                        body: '⚘ ᴄʀᴇᴀᴛᴇ ʙʏ Khairil春',          previewType: 0,
                         thumbnail: await (await fetch(pp)).buffer(),
-                        sourceUrl: 'https://youtu.be/pwLZpdfO8AU'
+                        sourceUrl: 'https://chat.whatsapp.com/Bn7PxZ06B3GL8BDEZhC36T'
                       }}
 })
 }
