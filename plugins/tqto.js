@@ -12,7 +12,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
 let cap = `*BIG THANKS TO*
     
 Terutama Terimakasih Teruntuk:
-➸ @${'628812743180'.split('@')[0]}
+➸ @${'60109102984'.split('@')[0]}
 
 Terimakasih Juga Untuk Kang Banned:
 ➸ 0@s.whatsapp.net
@@ -20,7 +20,6 @@ Terimakasih Juga Untuk Kang Banned:
 ─────────────────────
 • God
 • My ortu
-• King Of Bear ( Me )
 • Nurutomo
 • Adiwajshing
 • Ariffb
@@ -57,22 +56,22 @@ Terimakasih Juga Untuk Kang Banned:
 • Orang-orang yang Berdonasi
 ─────────────────────`
   let buttonMessage= {
-'document':{'url':'https://youtu.be/dd2FWLD6H9Q'},
+'document':{'url':'https://chat.whatsapp.com/Bn7PxZ06B3GL8BDEZhC36T'},
 'mimetype':global.ddocx,
-'fileName':'NexBotz',
+'fileName':'BebanBot愛',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'contextInfo':{
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'https://youtu.be/hklv-Ysqqac',
+'mediaUrl':'https://chat.whatsapp.com/Bn7PxZ06B3GL8BDEZhC36T',
 'mediaType':2,
 'previewType':'pdf',
 'title':`A MIMIR🎧: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-'body':`By NexEp`,
-'thumbnail':await(await fetch('https://telegra.ph/file/fb6ed7b403be07c191060.jpg')).buffer(),
-'sourceUrl':'https://youtu.be/dd2FWLD6H9Q'}},
+'body':`By BebanBot愛`,
+'thumbnail':await(await fetch('https://telegra.ph/file/5ed101baedcca6c885961.jpg')).buffer(),
+'sourceUrl':'https://chat.whatsapp.com/Bn7PxZ06B3GL8BDEZhC36T'}},
 'caption':cap,
 'footer':`Ini Ucapan Terima Kasih Untuk Orang Yang Telah Berpatisipasi
 
