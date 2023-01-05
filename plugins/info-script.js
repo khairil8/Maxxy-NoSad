@@ -8,7 +8,6 @@ let text = `*SYARAT & KETENTUAN*
 2. Jangan salah gunakan script ini!
 3. Jangan lupa Subscribe Youtube
 4. Jangan di per jual belikan
-• Jika ada eror di sc hub https://wa.me/6285380166282
 
 --------Thanks to ✨---------
 Allah SWT
@@ -20,7 +19,7 @@ Adiwajshing
 Nurutomo
 BochilGaming`
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'Script di sini', url: 'https://www.youtube.com/@MaxxyBotz'}},
+    {index: 1, urlButton: {displayText: 'Script di sini', url: 'https://telegra.ph/Sc-Bot-01-05'}},
 ]
 let tm = {
 text: text,
