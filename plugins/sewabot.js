@@ -1,43 +1,40 @@
 let handler = async (m, { conn }) => {
 	//-----PRICE
 //sewa
-let sh = '5'
-let sn = '15'
-let ss = '20'
-let sp = '35'
-let sv = '40'
+let sh = 'RM5'
+let sn = 'RM10'
+let ss = 'RM15'
+let sp = 'RM20'
 //premium
-let ph = '5'
-let pn = '15'
-let pp = '25'
-let pv = '35'
-let ppm = '35'
+let ph = 'RM5'
+let pn = 'RM15'
+let pp = 'RM25'
+let pv = 'RM35'
+let ppm = 'RM35'
 //jasa run
-let ri = '25'
-let pk = '30'
+let ri = 'RM20'
+let pk = 'RM30'
 let info = `
 ╭━━━━「 *SEWA* 」
-┊⫹⫺ *Hemat:* _${sh}k/grup (7 Hari)_
-┊⫹⫺ *Normal:* _${sn}k/grup (1 bulan)_                                         
-┊⫹⫺ *permanen:* = _${sv}k/grup (unlimited)_
+┊⫹⫺ *Hemat:* _${sh}/grup (7 Hari)_
+┊⫹⫺ *Normal:* _${sn}/grup (1 bulan)_                                         
 ╰═┅═━––––––๑
 
 ╭━━━━「 *PREMIUM* 」
-┊⫹⫺ *Hemat:* _${ph}k (7 Hari)_
-┊⫹⫺ *Normal:* _${pn}k (1 bulan)_                                       
-┊⫹⫺ *Permanent:* = _${ppm}k (Unlimited)_
+┊⫹⫺ *Hemat:* _${ph} (7 Hari)_
+┊⫹⫺ *Normal:* _${pn} (1 bulan)_                                       
 ╰═┅═━––––––๑
 ╭━━━━「 *PERPANJANG SEWA* 」
-┊⫹⫺ *Hemat:* _3k (7 Hari)_
-┊⫹⫺ *Normal:* _6k (1 bulan)_                                       
+┊⫹⫺ *Hemat:* _RM3 (7 Hari)_
+┊⫹⫺ *Normal:* _RM5 (1 bulan)_                                       
 ╰═┅═━––––––๑
 ╭━━━━「 *PERPANJANG PREMIUM* 」
-┊⫹⫺ *Hemat:* _3k (7 Hari)_
-┊⫹⫺ *Normal:* _6k (1 bulan)_                                       
+┊⫹⫺ *Hemat:* _RM3 (7 Hari)_
+┊⫹⫺ *Normal:* _RM5 (1 bulan)_                                       
 ╰═┅═━––––––๑
 ╭━━━━「 *JASARUN* 」
-┊⫹⫺ *Hemat:* _${ri}k (7 Hari)_
-┊⫹⫺ *Normal:* _${pk}k (1 bulan)_                                       
+┊⫹⫺ *Hemat:* _${ri} (7 Hari)_
+┊⫹⫺ *Normal:* _${pk} (1 bulan)_                                       
 ╰═┅═━––––––๑
 ༅ _*FITUR BOT*
 
@@ -53,14 +50,11 @@ let info = `
 _Total Fitur:_ 570++
 
 *⫹⫺ PAYMENT:*
-• *Dana:*
-• *Gopay:*
-• *Ovo:*
-• *QRIS*
-• *ALL PAYMENT*
+• *Digi:60109102984*
+• *Shopeepay:-*
 –––––– *🐾 Kebijakan* ––––––
 🗣️: Kak, Kok harganya mahal banget?
-💬: Mau tawar menawar? boleh, silahkan chat owner aja
+💬: Mau tawar menawar? Tidak boleh
 
 🗣️: Scam ga nih kak?
 💬: Enggalah, Owner 100% Tepati janji #STAYHALAL
@@ -71,22 +65,20 @@ const sections = [
    {
 	title: `${htjava} SEWA ✦-------`,
 	rows: [
-	    {title: "🔖 HEMAT", rowId: '.order *Paket:* 5K • Sewa', description: 'PRICE: ' + sh + 'k (7 Hari)' },
-	    {title: "🔖 NORMAL", rowId: '.order *Paket:* 10K • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
-	{title: "🔖 Permanen", rowId: '.order *Paket:* 40K • Sewa', description: 'PRICE: ' + sv + 'k (Permanen)' },
+	    {title: "🔖 HEMAT", rowId: '.order *Paket:* RM5 • Sewa', description: 'PRICE: ' + sh + ' (7 Hari)' },
+	    {title: "🔖 NORMAL", rowId: '.order *Paket:* RM10 • Sewa', description: 'PRICE: ' + sn + ' (1 bulan)' },
 	]
     }, {
     title: `${htjava} PREMIUM ✦-------`,
 	rows: [
-	    {title: "🌟 HEMAT", rowId: '.order *Paket:* 5K • Premium', description: 'PRICE: ' + ph + 'k (7 Hari)' },
-	    {title: "🌟 NORMAL", rowId: '.order *Paket:* 10K • Premium', description: 'PRICE: ' + pn + 'k (1 bulan)' },
-	{title: "🌟 PERMANENT", rowId: '.order *Paket:* 35K • Premium', description: 'PRICE: ' + ppm + 'k (UNLIMITED)' },
+	    {title: "🌟 HEMAT", rowId: '.order *Paket:* RM5 • Premium', description: 'PRICE: ' + ph + ' (7 Hari)' },
+	    {title: "🌟 NORMAL", rowId: '.order *Paket:* RM15 • Premium', description: 'PRICE: ' + pn + ' (1 bulan)' },
 	]
     }, {
         title: `${htjava} JASA RUN ✦-------`,
 	rows: [
-	    {title: "🌟 HEMAT", rowId: '.order *Paket:* 25K • Jasarun', description: 'PRICE: ' + ri + 'k (25 Hari)' },
-	    {title: "🌟 NORMAL", rowId: '.order *Paket:* 30K • Jasarun', description: 'PRICE: ' + pk + 'k (1 bulan)' },
+	    {title: "🌟 HEMAT", rowId: '.order *Paket:* RM20 • Jasarun', description: 'PRICE: ' + ri + ' (25 Hari)' },
+	    {title: "🌟 NORMAL", rowId: '.order *Paket:* RM30 • Jasarun', description: 'PRICE: ' + pk + ' (1 bulan)' },
 	]
     },
 ]
