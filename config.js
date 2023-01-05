@@ -27,12 +27,12 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
       
 
 /*============== INFO OWNER ==============*/
-global.sig = 'https://instagram.com/kahfiofc'
-global.syt = 'https://www.youtube.com/@MaxxyBotz'
-global.sgh = 'https://github.com/Frezzy-XD'
-global.sgc = 'https://chat.whatsapp.com/Ib4JOndTWQmGBSsPGWmIup'
-global.swa = 'wa.me/6285380166282'
-global.swb = 'https://lynk.id/kahfi.xd'
+global.sig = 'https://instagram.com/coglah_07'
+global.syt = 'https://www.youtube.com/@Khairil'
+global.sgh = 'https://github.com/KhairilOFC'
+global.sgc = 'https://chat.whatsapp.com/Bn7PxZ06B3GL8BDEZhC36T'
+global.swa = 'wa.me/60109102984'
+global.swb = 'https://linkfly.to/Khairil'
 global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
 
 /*============== PAYMENT ==============*/
@@ -44,15 +44,15 @@ global.ppulsa2 = '-'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285295374964'
-global.nomorown = '6285380166282'
-global.namebot = 'MaxxyBotz'
-global.nameown = 'KAHFI XD'
+global.nomorbot = '601124024797'
+global.nomorown = '60109102984'
+global.namebot = 'BebanBot愛'
+global.nameown = 'Khairil春'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6285380166282', 'KAHFI XD', 'true']
+  ['60109102984', 'Khairil春', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -102,16 +102,16 @@ global.bear = 'VBkM7rbU'
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'By MaxxyBotz' //Main Watermark
-global.wm2 = 'KAHFI XD'
-global.wm3 = 'MaxxyBotz | By KAHFI XD'
+global.wm = 'By BebanBot愛' //Main Watermark
+global.wm2 = 'Khairil春'
+global.wm3 = 'BebanBot愛 | By Khairil春'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = `NexBotz | ʙʏ ${global.nameown}`
-global.author = 'KAHFI XD' 
-global.packname = 'MaxxyBotz'
+global.titlebot = `BebanBot愛 | ʙʏ ${global.nameown}`
+global.author = 'Khairil春' 
+global.packname = 'BebanBot愛'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
-global.ultahowner = 'Juli 11 2022'
+global.ultahowner = '17 June 2008'
 
 
 /*============== LOGO ==============*/
@@ -123,14 +123,14 @@ global.thumbs = ['https://telegra.ph/file/62d4704e53151622e0d6e.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.thumbBanned = 'https://telegra.ph/file/a5eb5169ab1330a537e0b.jpg'
 global.thumbWarn = 'https://telegra.ph/file/a5eb5169ab1330a537e0b.jpg'
-global.botintro = 'Hallo, Kenalin saya MaxxyBotz Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh KAHFI XD Saya di rilis pada tanggal\n🗓 ️_16/10/2022_'
+global.botintro = 'Hallo, Kenalin saya BebanBot愛 Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh Khairil春 Saya di rilis pada tanggal\n🗓 ️_16/10/2022_'
 global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
 /*============== GLOBAL BIO ==============*/
-global.nameowner = 'KAHFI XD'
-global.umurowner = '100'
-global.asalowner = 'Aceh, Aceh Timur'
-global.nomorowner = 'wa.me/6285380166282'
-global.pacarowner = 'Maxxy'
+global.nameowner = 'Khairil'
+global.umurowner = '14'
+global.asalowner = 'Malaysia, Sabah'
+global.nomorowner = 'wa.me/60109102984'
+global.pacarowner = '?'
 
 /*============== TEXT ==============*/
 global.wait = '```𝙇𝙤𝙖𝙙𝙞𝙣𝙜...```'
@@ -378,8 +378,8 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/fd/21/41/fd21419275236bb153de3c8dcbbf3bf9.jpg',
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 /*============== STICKER WM ==============*/
-global.stickpack = 'By MaxxyBotz'
-global.stickauth = `KAHFI XD`
+global.stickpack = 'By BebanBot愛'
+global.stickauth = `Khairil春`
 
 global.multiplier = 38 // The higher, The harder levelup
 
