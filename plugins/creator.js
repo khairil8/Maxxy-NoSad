@@ -20,17 +20,17 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : KAHFIXD
-${htjava} *✉️ Nama RL* : Blitz
+${htjava} *💌 Nama* : Khairil
+${htjava} *✉️ Nama RL* : Khai
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
-${htjava} *⏰ Tanggal lahir* : Private 🥶
-${htjava} *🎨 Umur* : PRIVATE
-${htjava} *🧮 Kelas* : PRIVATE
-${htjava} *🧩 Hobby* : MODIFIKASI WHATSAPP
+${htjava} *⏰ Tanggal lahir* : 17/06/2008
+${htjava} *🎨 Umur* : 15
+${htjava} *🧮 Kelas* : 3
+${htjava} *🧩 Hobby* : TURU
 ${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
-${htjava} *🗺️ Tinggal* : Aceh, Aceh Timur 
-${htjava} *❤️ Waifu* : Kaede Hitotsuba
+${htjava} *🗺️ Tinggal* : Malaysia, Sabah 
+${htjava} *❤️ Waifu* : Nico Robin
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 •·––––––––––––––––––––––––––·•
