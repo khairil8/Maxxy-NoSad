@@ -2,13 +2,13 @@ import fs from 'fs';
 let handler = async (m, { conn, text, usedPrefix }) => {
 
     let img = fs.readFileSync('./thumbnail.jpg');
-    let img2 = `https://telegra.ph/file/62d4704e53151622e0d6e.jpg`
-    return conn.sendButton(m.chat, 'Donasi Pm Owner aja.\n❏  :v', 'Makasih, thanks for you donate...', img2, [["MENU", usedPrefix + "menu"], ["OWNER", usedPrefix + "owner"]], m, {
+    let img2 = `https://telegra.ph/file/09a41ff7518f695096dab.jpg`
+    return conn.sendButton(m.chat, 'Donasi Via Shopeepay.\n❏  ', 'Makasih, thanks for you donate...', img2, [["MENU", usedPrefix + "menu"], ["OWNER", usedPrefix + "owner"]], m, {
         contextInfo: {
             externalAdReply: {
-                mediaUrl: "https://instagram.com/kahfiofc",
+                mediaUrl: "https://instagram.com/coglah_07",
                 mediaType: "VIDEO",
-                title: 'Donasi To MaxxyBotz ',
+                title: 'Donasi To BebanBot愛 ',
                 body: bottime,
                 previewType: 0,
                 thumbnail: img
